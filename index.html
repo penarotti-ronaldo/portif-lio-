@@ -1,22 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meu portifolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <img src="img/image.png" alt="Imagem Ronaldo Penarotti">
-    <p>Meu nome é Ronaldo_</p>
-    <h1>Eu ensino Programação </h1>
-    <p>Sou professor do ensino fundamental II e médio, ensino Geografia, Programação e Robotica.</p>
-    <p>Minhas habilidades</p>
-    <div>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>C++</p>
-        <p>Scratch</p>
-    </div>
-    
+    <header class="container text-center">
+        <img src="download.jpeg" alt="Imagem Ronaldo Penarotti" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Meu nome é Ronaldo_</p>
+        <h1>Eu ensino Programação </h1>
+        <p>Sou professor do ensino fundamental II e médio, ensino Geografia, Programação e Robotica.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Geografia</p>
+            <p class="badge bg-secondary">HTML/CSS</p>
+            <p class="badge bg-secondary">C++</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ods.jpg" class="card-img-top" alt="Objetivos de desenvolvimento sustentável" height="265">
+                    <div class="card-body">
+                        <h5 class="card-title">Políticas públicas e desenvolvimento sustentável</h5>
+                        <p class="card-text">A formulação de políticas públicas são fundamentais para a promoção do
+                            desenvolvimento</p>
+                        <button type="button" class="btn btn-link">Informações</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="robo-seguidor-0.JPG" class="card-img-top" alt="Robô seguidor de linha" height="265">
+                    <div class="card-body">
+                        <h5 class="card-title">Robô seguidor de linha</h5>
+                        <p class="card-text">Os robôs seguidores de linha são equipados com sensores de infravermelho
+                            capzes de detectar a relfexão de infravermelho difrenciando as cores branco e preto</p>
+                        <button type="button" class="btn btn-link">Informações</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="scratch.jpeg" class="card-img-top" alt="Gatinho icone do scratch" height="265">
+                    <div class="card-body">
+                        <h5 class="card-title">Animações com listas </h5>
+                        <p class="card-text">Es listas servem para armazenar diferentes valores, ao utilizar uma lista
+                            podemos criar uma animação com diferentes interaçõs com a programação em blocos, além de
+                            outras diversas funcionalidades.</p>
+                        <button type="button" class="btn btn-link">Informações</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="rodape">
+        <h2 class="titulo-rodape">Entre em contato</h2>
+        <div>
+            <a href="https://github.com/penarotti-ronaldo" class="git-link">Github</a>
+            <p class="cop">© copyrigth, 2025, Ronaldo Penarotti</p>
+        </div>
+    </footer>
 </body>
+
 </html>
